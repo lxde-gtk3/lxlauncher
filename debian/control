@@ -1,0 +1,38 @@
+Source: lxlauncher
+Section: x11
+Priority: optional
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Uploaders:
+ Andrew Lee (李健秋) <ajqlee@debian.org>,
+ Andriy Grytsenko <andrej@rep.kiev.ua>
+Build-Depends:
+ debhelper (>= 9), autoconf, autotools-dev, intltool, libgtk2.0-dev,
+ libmenu-cache-dev, libstartup-notification0-dev
+Standards-Version: 3.9.7
+Homepage: http://www.lxde.org/
+Vcs-Browser: http://git.lxde.org/gitweb/?p=debian/lxlauncher.git
+Vcs-Git: git://git.lxde.org/git/debian/lxlauncher.git
+
+Package: lxlauncher
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, lxmenu-data
+Recommends: gnome-icon-theme
+Description: LXDE launcher for netbooks
+ LXLauncher is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It is a Easy-Mode launcher for netbooks and subnotebooks like the EeePC.
+ It's standard-compliant and desktop-independent. It follows freedesktop.org
+ specs, so newly added applications will automatically show up in the launcher,
+ and vice versa for the removed ones.
+
+Package: lxlauncher-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends}, lxlauncher (= ${binary:Version})
+Description: LXDE launcher for netbooks (debug)
+ LXLauncher is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the debugging symbols.

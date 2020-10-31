@@ -1,0 +1,215 @@
+lxlauncher (0.2.5-gtk3) unstable; urgency=low
+
+  * Porting gtk3
+  
+ -- Ali Riza Keskin <parduscix@yandex.ru> 
+
+
+lxlauncher (0.2.5-1) unstable; urgency=low
+
+  * Merging upstream version 0.2.5.
+  * Changing Maintainer e-mail to Alioth based one.
+  * Bump Standards-Version to 3.9.7.
+  * Adding hardening flags.
+
+ -- Andriy Grytsenko <andrej@rep.kiev.ua>  Sun, 21 Feb 2016 15:38:26 +0200
+
+lxlauncher (0.2.4-1) unstable; urgency=low
+
+  * Merging upstream version 0.2.4.
+  * Bump Standards-Version to 3.9.6.
+  * Adding lintian-overrides file for debian-watch-may-check-gpg-signature.
+
+ -- Andriy Grytsenko <andrej@rep.kiev.ua>  Mon, 20 Oct 2014 20:43:31 +0300
+
+lxlauncher (0.2.3-1) unstable; urgency=low
+
+  * Adding myself to Uploaders.
+  * Removing 01-empty-icon.patch which is included into upstream sources.
+  * Adding README file into package's docs.
+  * Adding 01-debian-menu.patch to add Debian submenu below Work
+    (Closes: #722563).
+  * Merging upstream version 0.2.3 (Closes: #531356, #547480, #553639,
+    #697832, #698005).
+  * Removing obsolete target override_dh_builddeb from debian/rules file.
+  * Removing override_dh_auto_test target from debian/rules: it works now.
+  * Updating debian/copyright file.
+  * Enabling parallel building.
+
+ -- Andriy Grytsenko <andrej@rep.kiev.ua>  Wed, 03 Sep 2014 23:49:18 +0300
+
+lxlauncher (0.2.2-4) unstable; urgency=low
+
+  [ Andriy Grytsenko ]
+  * Changing libmenu-cache1-dev to libmenu-cache-dev (Closes: #722110).
+  * Removing Daniel Baumann from uploaders (Closes: #704341).
+  * Adding --disable-silent-rules to fix buildlog checker warning.
+  * Bump Standards-Version to 3.9.5.
+  * Updating watch file to support XZ tarball format and non-numeric 
+    versions.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 26 Dec 2013 02:11:03 +0800
+
+lxlauncher (0.2.2-3) unstable; urgency=low
+
+  * Moving package to priority optional.
+  * Adding apport hook from Julien Lavergne <gilir@ubuntu.com> and
+    Matthew Byers <stlsaint@ubuntu.com>.
+  * Adding debug package.
+
+ -- Daniel Baumann <daniel@debian.org>  Fri, 18 May 2012 19:22:50 +0200
+
+lxlauncher (0.2.2-2) unstable; urgency=low
+
+  * Updating maintainer field.
+  * Adding myself to uploaders.
+  * Updating vcs fields.
+  * Removing whitespaces at EOL and EOF.
+  * Updating package to debhelper version 9.
+  * Updating package to standards version 3.9.3.
+  * Making build-depends unversioned where already fulfiled as of
+    squeeze.
+  * Updating homepage field.
+  * Rewriting copyright file machine-readable format version 1.0.
+  * Rediffing empty-icon.patch with common diff options.
+  * Decrufting rules file.
+  * Switching to xz compression for both the source and the binary
+    packages.
+  * Rewriting package descriptions.
+
+ -- Daniel Baumann <daniel@debian.org>  Fri, 20 Apr 2012 12:35:47 +0200
+
+lxlauncher (0.2.2-1) unstable; urgency=low
+
+  * Use debhelper 8
+  * Sorting  build-depends.
+  * Wapping build-depends.
+  * Removing useless whitespaces at EOL and EOF.
+  * Bumped Standard-Version to 3.9.2.
+  * Updating Vcs-Browser and Vcs-Git tags.
+  * Sorting depends.
+  * Added debian/source/options file.
+  * Enable dh_auto_test.
+  * Compacting watch file.
+  * Merging upstream version 0.2.2: (Closes: #555574)
+    - Fix building with gtk older tha 2.24
+    - Fix-wrong-arg-to-gtk_menu_popup
+    - Fix-g_spawn_async-usage
+    - Fixed GdkRGBA usage
+    - Fix drawing with gtk3
+    - Fix usage of GtkAllocation
+    - Use GDK_WINDOW_XID instead of GDK_WINDOW_XWINDOW
+    - Use gdk_window instead of gdk_drawable
+    - Remove a MENU_CACHE reference
+    - Use a gtk3 function for drawing the background
+    - Fix GtkAllocation and border_width of GtkContainer
+    - Remove GTK_NO_WINDOW
+    - Use new method for size-request of gtk3
+    - Remove GDK_DISPLAY usage
+    - Fix property of gtk_settings_install_property
+    - Modify rendering for gtk3
+    - Fix viewport for gtk3
+    - Fix gtk_window and can_focus
+    - Others gtk_adjustement fixes
+    - Fix gtk_adjustment for gtk3
+    - Remove GTK_* usage
+    - Add an option to compile with gtk3
+    - Add the ability to use another prefix for the menu (original
+      patch by Christopher R. Gabriel)
+    - Remove resize grip wih GTK3 (patch from Jonathan Marsden)
+    - Generate po/LINGUAS at build time
+    - Add missing x11 flags
+    - Apply patch from Enrico Zini Do not segfault if a window manager
+      returns no data for current desktop.
+    - Fix for the new behavior of libmenu-cache 0.3 series.
+    - Correcting misspelling of LXLauncher found by Josep Sànchez
+    - Fix failure with "builtin" icons: code change propagated from lxpanel
+    - Apply build loop patch to lxlauncher and lxsession-edit
+  * Completing and rewriting copyright file in machine interpretable format.
+  * Remove debian/dirs: let upstream's makefile does the work.
+  * Drop 01_fix_infinite_loop.patch: included in upstream.
+  * Drop 02_lxlauncher-matchbox.patch: included in upstream.
+  * Drop 03_libmenu-cache-0.3-series.patch: included in upstream.
+  * Remove debian/patches/ as no patch available.
+  * Remove debian/docs: empty NEWS and useless README file.
+  * Compacting rules file.
+  * Apply 01_fix_empty_icon.patch from Julien Lavergne.
+  * Disabling dh_auto_test: Incompelete in po/.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 27 Jul 2011 14:28:27 +0800
+
+lxlauncher (0.2.1-3) unstable; urgency=low
+
+  * Applied 03_libmenu-cache-0.3-series.dpatch
+  * debian/control:
+    - Minor fix in description (Closes:#534190)
+    - Team maintainer: Debian LXDE Packaging Team
+    - Added Vcs-Git and Vcs-Browser tags
+    - Build-depends on libmenu-cache1-dev (>= 0.3.2) (Closes:#577336)
+  * Bumpped Standard-Version to 3.8.4
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Set urgency=high for unblock transition on LXDE packages.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 15 Apr 2010 00:03:44 +0800
+
+lxlauncher (0.2.1-2) unstable; urgency=low
+
+  * Applied 01_fix_infinite_loop.dpatch (Closes:#537404)
+  * debian/control:
+    - build-depends on intltool, autoconf
+
+ -- Andrew Lee <andrew@linux.org.tw>  Sat, 18 Jul 2009 21:55:01 +0200
+
+lxlauncher (0.2.1-1) unstable; urgency=low
+
+  * New upstream release
+    - Supports configuation file in /etc/xdg/lxlauncher/settings.conf
+      Now button and image size are configurable
+    - Load gtkrc file from XDG config dirs
+    - Updated translations
+  * Drop patches already included in upstream:
+    - 01_lxlauncher-missing-include.dpatch
+    - 03_scale-icons.dpatch
+    - 04_update-translations.dpatch
+  * debian/control:
+    - Build-depends on libmenu-cache-dev
+    - Depends on lxmenu
+  * debian/rules:
+    - Aded --sysconfdir=/etc
+  * Updated debian/copyright
+  * Bumpped Standard-Version to 3.8.2
+
+ -- Andrew Lee <andrew@linux.org.tw>  Sat, 11 Jul 2009 19:22:54 +0800
+
+lxlauncher (0.2-3) unstable; urgency=low
+
+  * Applied 02_lxlauncher-matchbox.dpatch (Closes: #498601)
+    Thanks to Enrico Zini <enrico@debian.org> for the patch.
+  * Applied 03_scale-icons.dpatch to make different icons looks all in
+    equal size.
+  * Updated translations. (Closes: #509758)
+
+ -- Andrew Lee <andrew@linux.org.tw>  Sat, 31 Jan 2009 22:51:20 +0800
+
+lxlauncher (0.2-2) unstable; urgency=low
+
+  * Applied 01_lxlauncher-missing-include.dpatch (Closes: #488727)
+    Thanks to dann frazier <dannf@debian.org> for the patch.
+
+ -- Andrew Lee <andrew@linux.org.tw>  Tue, 01 Jul 2008 17:14:34 +0800
+
+lxlauncher (0.2-1) unstable; urgency=low
+
+  * New upstream release (Closes: #487986)
+    - Supports sub-menus
+    - Uses cairo to draw backgrounds
+  * Bumped Standards-Version to 3.8.0.0
+    - Supporting the standardized environment variable `DEB_BUILD_OPTIONS'
+
+ -- Andrew Lee <andrew@linux.org.tw>  Mon, 30 Jun 2008 04:31:12 +0800
+
+lxlauncher (0.1.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #482169)
+
+ -- Andrew Lee <andrew@linux.org.tw>  Sun, 25 May 2008 14:59:10 +0800

@@ -1,0 +1,97 @@
+#
+# Boljsa <asjlob AT vip.hr>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxlauncher_hr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-03 04:32+0300\n"
+"PO-Revision-Date: 2015-04-02 10:44+0000\n"
+"Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
+"Language-Team: <asjlob AT vip.hr>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1427971495.000000\n"
+
+#.
+#. item = gtk_separator_menu_item_new();
+#. gtk_menu_shell_append(p, item);
+#.
+#: ../src/lxlauncher.c:124
+msgid "_Customize"
+msgstr "_Prilagodba"
+
+#: ../src/lxlauncher.c:640
+#, c-format
+msgid "Go back to \"%s\""
+msgstr "Vrati se na \"%s\""
+
+#: ../src/lxlauncher.c:870
+msgid "Enable key navigation"
+msgstr "Omogući navigaciju tipkama"
+
+#: ../src/lxlauncher.c:871
+msgid ""
+"Allow users to use up/down/left/right/tab/enter keys to operate the "
+"lxlauncher"
+msgstr ""
+"Dopusti korisnicima da koriste gore/dolje/lijevo/desno/tab/enter tipke za "
+"upravljanje lxlauncher-om"
+
+#: ../src/exo-wrap-table.c:196
+msgid "Column spacing"
+msgstr "Razmak među stupcima"
+
+#: ../src/exo-wrap-table.c:197
+msgid "The amount of space between two consecutive columns"
+msgstr "Količina prostora između dva uzastopna stupca"
+
+#: ../src/exo-wrap-table.c:211
+msgid "Row spacing"
+msgstr "Razmak između redova"
+
+#: ../src/exo-wrap-table.c:212
+msgid "The amount of space between two consecutive rows"
+msgstr "Količina prostora između dva uzastopna reda"
+
+#: ../src/exo-wrap-table.c:226
+msgid "Homogeneous"
+msgstr "Istovrstan"
+
+#: ../src/exo-wrap-table.c:227
+msgid "Whether the children should be all the same size"
+msgstr "Trebaju li djeca biti iste veličine"
+
+#: ../src/misc.c:344
+#, c-format
+msgid "Command not found"
+msgstr "Naredba nije pronađena"
+
+#: ../data/lxde-learn.directory.in.h:1
+msgid "Learn"
+msgstr "Uči"
+
+#: ../data/lxde-math.directory.in.h:1
+msgid "Math"
+msgstr "Matematika"
+
+#: ../data/lxde-play.directory.in.h:1
+msgid "Play"
+msgstr "Reproduciraj"
+
+#: ../data/lxde-science.directory.in.h:1
+msgid "Science"
+msgstr "Znanost"
+
+#: ../data/lxde-webmail.directory.in.h:1
+msgid "Web Mail"
+msgstr "Web pošta"
+
+#: ../data/lxde-work.directory.in.h:1
+msgid "Work"
+msgstr "Posao"

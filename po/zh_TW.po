@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-03 04:32+0300\n"
+"PO-Revision-Date: 2015-03-20 07:17+0000\n"
+"Last-Translator: wwycheuk <wwycheuk@gmail.com>\n"
+"Language-Team: zh_TW <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1426835825.000000\n"
+
+#.
+#. item = gtk_separator_menu_item_new();
+#. gtk_menu_shell_append(p, item);
+#.
+#: ../src/lxlauncher.c:124
+msgid "_Customize"
+msgstr "自訂(_C)"
+
+#: ../src/lxlauncher.c:640
+#, c-format
+msgid "Go back to \"%s\""
+msgstr "回到 \"%s\""
+
+#: ../src/lxlauncher.c:870
+msgid "Enable key navigation"
+msgstr "讓瀏覽鍵生效"
+
+#: ../src/lxlauncher.c:871
+msgid ""
+"Allow users to use up/down/left/right/tab/enter keys to operate the "
+"lxlauncher"
+msgstr "允許使用者以 上/下/左/右/tab/enter鍵 來操作 lxlauncher"
+
+#: ../src/exo-wrap-table.c:196
+msgid "Column spacing"
+msgstr "欄的空間"
+
+#: ../src/exo-wrap-table.c:197
+msgid "The amount of space between two consecutive columns"
+msgstr "在兩個接續欄位之間的空間"
+
+#: ../src/exo-wrap-table.c:211
+msgid "Row spacing"
+msgstr "列的空間"
+
+#: ../src/exo-wrap-table.c:212
+msgid "The amount of space between two consecutive rows"
+msgstr "在兩個接續列之間的空間"
+
+#: ../src/exo-wrap-table.c:226
+msgid "Homogeneous"
+msgstr "同質的"
+
+#: ../src/exo-wrap-table.c:227
+msgid "Whether the children should be all the same size"
+msgstr "是否這些子代都要用同樣的尺寸"
+
+#: ../src/misc.c:344
+#, c-format
+msgid "Command not found"
+msgstr "沒找到這個指令"
+
+#: ../data/lxde-learn.directory.in.h:1
+msgid "Learn"
+msgstr "學習"
+
+#: ../data/lxde-math.directory.in.h:1
+msgid "Math"
+msgstr "數學"
+
+#: ../data/lxde-play.directory.in.h:1
+msgid "Play"
+msgstr "娛樂"
+
+#: ../data/lxde-science.directory.in.h:1
+msgid "Science"
+msgstr "科學"
+
+#: ../data/lxde-webmail.directory.in.h:1
+msgid "Web Mail"
+msgstr "網郵"
+
+#: ../data/lxde-work.directory.in.h:1
+msgid "Work"
+msgstr "工作"
+
+#~ msgid "Internet"
+#~ msgstr "網際網路"
+
+#~ msgid "Settings"
+#~ msgstr "設定"

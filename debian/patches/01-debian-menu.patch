@@ -1,0 +1,19 @@
+Fix for bug - #722563 - lxlauncher: does not display debian menus
+
+diff --git a/data/lxlauncher-applications.menu b/data/lxlauncher-applications.menu
+index b403d8a..daa337a 100644
+--- a/data/lxlauncher-applications.menu
++++ b/data/lxlauncher-applications.menu
+@@ -95,6 +95,12 @@
+ 				<Not><Category>Screensaver</Category></Not>
+ 			</And>
+ 		</Include>
++		<!-- Debian-specific menu: add it below Work -->
++		<Menu>
++			<Name>Debian</Name>
++			<MergeFile>debian-menu.menu</MergeFile>
++			<Directory>Debian.directory</Directory>
++		</Menu>
+ 	</Menu>
+ 	<Menu>
+ 		<Name>Learn</Name>

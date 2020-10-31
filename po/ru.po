@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Max <mpui@tut.by>, 2010
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxlauncher\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-19 21:01+0300\n"
+"PO-Revision-Date: 2014-10-19 21:18+0000\n"
+"Last-Translator: system user <>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1413753531.000000\n"
+
+#.
+#. item = gtk_separator_menu_item_new();
+#. gtk_menu_shell_append(p, item);
+#.
+#: ../src/lxlauncher.c:124
+msgid "_Customize"
+msgstr "_Настроить"
+
+#: ../src/lxlauncher.c:641
+#, c-format
+msgid "Go back to \"%s\""
+msgstr "Вернуться к \"%s\""
+
+#: ../src/lxlauncher.c:903
+msgid "Enable key navigation"
+msgstr "Разрешить навигацию с клавиатуры"
+
+#: ../src/lxlauncher.c:904
+msgid ""
+"Allow users to use up/down/left/right/tab/enter keys to operate the "
+"lxlauncher"
+msgstr ""
+"Разрешить использовать клавиши ←,↑,→,↓, TAB и ENTER для управления lxlaucher"
+
+#: ../src/exo-wrap-table.c:196
+msgid "Column spacing"
+msgstr "Ширина столбца"
+
+#: ../src/exo-wrap-table.c:197
+msgid "The amount of space between two consecutive columns"
+msgstr "Промежуток между столбцами"
+
+#: ../src/exo-wrap-table.c:211
+msgid "Row spacing"
+msgstr "Ширина строк"
+
+#: ../src/exo-wrap-table.c:212
+msgid "The amount of space between two consecutive rows"
+msgstr "Промежуток между строками"
+
+#: ../src/exo-wrap-table.c:226
+msgid "Homogeneous"
+msgstr "Однородные"
+
+#: ../src/exo-wrap-table.c:227
+msgid "Whether the children should be all the same size"
+msgstr "Единый размер для потомков"
+
+#: ../src/misc.c:344
+#, c-format
+msgid "Command not found"
+msgstr "Команда не найдена"
+
+#: ../data/lxde-learn.directory.in.h:1
+msgid "Learn"
+msgstr "Обучение"
+
+#: ../data/lxde-math.directory.in.h:1
+msgid "Math"
+msgstr "Математика"
+
+#: ../data/lxde-play.directory.in.h:1
+msgid "Play"
+msgstr "Забавы"
+
+#: ../data/lxde-science.directory.in.h:1
+msgid "Science"
+msgstr "Наука"
+
+#: ../data/lxde-webmail.directory.in.h:1
+msgid "Web Mail"
+msgstr "Сеть, Почта"
+
+#: ../data/lxde-work.directory.in.h:1
+msgid "Work"
+msgstr "Работа"

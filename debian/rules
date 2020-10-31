@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh ${@} --parallel
+
+override_dh_auto_configure:
+	dh_auto_configure -- --enable-gtk3
+
+override_dh_auto_install:
+	dh_auto_install -- DESTDIR=$(CURDIR)/debian/lxlauncher
+
+override_dh_strip:
+	dh_strip --dbg-package=lxlauncher-dbg
